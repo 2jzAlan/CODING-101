@@ -1,0 +1,67 @@
+h1{
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-radius: 50px 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 900px;;
+    opacity: .7;
+    color: rgb(255, 255, 255);
+    font-family: "courier";
+    font-size:60px;
+    font-weight:bold;
+    text-align:center;
+}
+
+h2{
+    border: 3px solid;
+    padding: 10px;
+    box-shadow: 6px 4px red, 8px 8px blue, 12px 12px green;
+    transition: width 2s;
+    text-decoration: underline;
+    width: 300px;
+    margin-left: 450px;
+    margin-top: 100px;
+    text-align: end;
+}
+h2:hover{
+    width: 150px;
+}
+
+h3{
+    border: 8px solid;
+    padding: 10px;
+    border-image: linear-gradient(45deg, red, blue, green) 10;
+    transform: rotate(90deg);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    padding: 20px;
+    width: 150px;
+    margin-left: 550px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+@keyframes rainbow {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+h4{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 45px;
+    padding: 5px;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 200px;
+    text-align: center;
+}

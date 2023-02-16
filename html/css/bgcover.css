@@ -1,0 +1,6 @@
+body{
+    background-image: url("style/background1.png"), url("style/background2.jpeg");
+    background-position: center; /* Center the image */
+    background-repeat: repeat, no-repeat; /* repeat first image, don't repeat second image */
+    background-size: 100px, cover; /* for "cover" Resize the background image to cover the entire container */
+  }
